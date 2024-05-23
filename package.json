@@ -1,0 +1,14 @@
+{
+  "name": "password-reset-test",
+  "version": "1.0.0",
+  "description": "Automated tests for password reset flow using Playwright and BDD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@playwright/test": "^1.12.3"
+  }
+}
